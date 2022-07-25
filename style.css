@@ -14,7 +14,7 @@
     background-image: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
     color: white;
     border-radius: 6px;
-    padding: 12px 20px;
+    padding: 8px 20px;
     border: none;
 }
 .category img{
@@ -38,9 +38,17 @@
 .form{
     height: 250px;
 }
+.form input:focus{
+    outline: none;
+    border: none;
+}
 .form-btn{
     display: inline-block;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     margin-left: -5px;
+}
+footer{
+    height: 200px;
+    background-color: #000000;
 }
